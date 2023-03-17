@@ -1,0 +1,21 @@
+.Searchbar{
+    border-color: aliceblue;
+        border-radius: 20px;
+        width: 61%;
+        margin-left: 200px;
+        position: relative;
+        padding: 1rem;
+        margin: 60px auto 0;
+        
+ }
+ input{
+ width: 100%;
+ border:darkgrey;  
+ border-radius: 15px;
+ background-color: lightgray;
+ padding:0.5rem;
+ border-color:aliceblue;   
+ }
+ input:focus{
+    outline:none;
+ }

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box; 
+  margin: 0;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+   /* justify-content: center;   */
+  height: 100vh;
+  padding:1.5rem;
+}
+.H1{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Arial;
+  position: absolute;
+  left: 20%;
+  /* display: block; */
+  padding: 1.5rem;
+} 
+
+
