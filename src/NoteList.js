@@ -1,9 +1,11 @@
 import Note from './Note'
 import './NoteList.css'
- const NoteList = ({ notes, searchText, onDeleteNote }) => {
+const NoteList = ({ notes, searchText, onDeleteNote }) => {
     const filteredNotes = notes.filter(note => {
       return note.toLowerCase().includes(searchText.toLowerCase());
     });
+  console.log(searchText)
+  console.log(filteredNotes)
   
     return (
       <div className="NoteList">
